@@ -39,7 +39,7 @@ pipeline {
             steps {
                 script{
                     sh """
-                        'npm test || true'
+                        npm test || true
                     """
                 }
             }
